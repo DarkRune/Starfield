@@ -15,7 +15,8 @@ void setup()
 }
 void draw()
 {
-  background(0);
+   fill(0,0,0,40);
+   rect(-20,-20,1040,1040);
   for (int i = 0; i < star.length; i++)
   {
     star[i].move();
